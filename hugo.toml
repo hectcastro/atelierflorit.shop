@@ -1,0 +1,21 @@
+baseURL = 'https://atelierflorit.shop/'
+languageCode = 'en-us'
+title = 'Atelier Florit'
+
+theme = ['github.com/nodejh/hugo-theme-mini']
+
+defaultContentLanguage = 'en'
+
+[params]
+author = 'Atelier Florit'
+bio = 'Est. 2020 in Philadelphia, Pennsylvania'
+description = 'description'
+customCSS = ['css/custom.css']
+enableRSS = false
+enableComments = false
+enableGoogleAnalytics = false
+showToc = false
+showPowerBy = false
+math = false
+hiddenPostSummaryInHomePage = true
+links = []
