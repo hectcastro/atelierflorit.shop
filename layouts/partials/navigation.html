@@ -4,6 +4,7 @@
         "home" }}{{ end }}</a>
     {{ end }}
     <a href="{{ "/about" | relURL }}">{{ with .Site.Params.about }}{{ . }}{{ else }}{{ i18n "about" }}{{ end }}</a>
+    <a href="mailto:info@atelierflorit.shop">Contact</a>
 
     {{ range $element := .Site.Params.Links }}
     <a href="{{ $element.path }}">{{ $element.name }}</a>
